@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/validation.js"> </script>
+</head>
+    <body>
+        <form name="form" method="post" >  
+            <label for="fname">First name:</label>
+            <input type="text" name="fname" id="fname" class="fname" placeholder="enter your firstname"/></br></br>
+            <label for="fname">last name:</label>
+            <input type="text" name="lname" id="lname" class="lname" placeholder="enter your lastname"/></br></br>
+            <label for="email">email:</label>
+            <input type="email" name="email" id="email" class="email" placeholder="enter your email"/></br></br>
+            <label for="phoneno">phone no:</label>
+            <input type="text" name="phoneno" id="phoneno" onkeyup="addHyphen(this)" class="phoneno" maxLength="10" placeholder="xxx-xxx-xxxx"/></br></br>
+            <label for="city">select your city:</label>
+            <select name="city" id="city">
+                <option value="">Select your city</option>
+                <option value="ahemdabad">Ahemdabad</option>
+                <option value="morbi">Morbi</option>
+                <option value="surat">Surat</option>
+                <option value="rajkot">Rajkot</option>
+            </select></br></br>
+            <lable for="comment">comment:</lable>
+            <input  type="textarea" name="comment" class="comment"/></br></br>
+            <button type="submit" onclick="return validation()" name="submit">submit</button>
+            <!-- <div id="test">
+                <img src="../img/nature.jpg" alt="img">
+                <button type="button" onclick="togfile()" >test</button>
+            </div> -->
+        </form> 
+    </body>
+</html>

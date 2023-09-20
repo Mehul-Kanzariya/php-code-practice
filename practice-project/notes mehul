@@ -1,0 +1,278 @@
+  Youtube API key   :    AIzaSyCnpb3SrHBxjK6Kne1zJubLk4TIcyyEpsY
+ fu2r8kai38gzvnl8djtxg9e2mi2eaypu -consumer key
+lyihh1ebwwoy2v9l6pm4lsaluofts8xz  -consumer secret
+
+  cd ~/warden-projects/practice-project/
+  warden env up
+   warden shell
+mysql -u wordpress -h db wordpress -pwordpress
+----------------------------------------
+validation reg ex.link
+----------------------------------------
+1.regexlib-raw.txt
+2.https://github.com/superhuman/rxxr2/blob/master/data/input/regexlib-raw.txt
+---------------------------
+Error message
+---------------------------
+required: "This field is required.",
+    remote: "Please fix this field.",
+    email: "Please enter a valid email address.",
+    url: "Please enter a valid URL.",
+    date: "Please enter a valid date.",
+    dateISO: "Please enter a valid date (ISO).",
+    number: "Please enter a valid number.",
+    digits: "Please enter only digits.",
+    creditcard: "Please enter a valid credit card number.",
+    equalTo: "Please enter the same value again.",
+    accept: "Please enter a value with a valid extension.",
+    maxlength: jQuery.validator.format("Please enter no more than {0} characters."),
+    minlength: jQuery.validator.format("Please enter at least {0} characters."),
+    rangelength: jQuery.validator.format("Please enter a value between {0} and {1} characters long."),
+    range: jQuery.validator.format("Please enter a value between {0} and {1}."),
+    max: jQuery.validator.format("Please enter a value less than or equal to {0}."),
+    min: jQuery.validator.format("Please enter a value greater than or equal to {0}.")
+-----------------------------
+Magento 2 tutorial link
+----------------------------------------------------
+https://www.javatpoint.com/magento-2
+
+
+-----------------------------
+
+META_PACKAGE=magento/project-community-edition META_VERSION=2.4.6
+
+composer create-project --repository-url=https://repo.magento.com/ \
+    "${META_PACKAGE}" /tmp/exampleproject "${META_VERSION}"
+
+rsync -a /tmp/magento246/ /var/www/html/
+rm -rf /tmp/magento246/
+-------------------------------
+rm -rf /tmp/magento246/
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------
+META_PACKAGE=magento/project-community-edition META_VERSION=2.4.6
+
+composer create-project --repository-url=https://repo.magento.com/ \
+    "${META_PACKAGE}" /tmp/magento246 "${META_VERSION}"
+
+rsync -a /tmp/magento246/ /var/www/html/
+rm -rf /tmp/magento246/
+
+rm -rf /tmp/magento246/
+
+
+"repo.magento.com": {"username": "95037faebda1982d04d82bd8f9a6d6c8","password": "92752d743c536598b89b998a64050558"}
+
+-------------------------------------
+Create new user
+
+php bin/magento admin:user:create --admin-user='mehul' --admin-password='Mehul@123' --admin-email='mehul@mavenbird.in' --admin-firstname='Mehul' --admin-lastname='Kanzariya'
+
+-----------------------------------------------------
+
+bin/magento dev:profiler:disable html
+
+---------------------------------------
+
+//install magento 2
+
+
+bin/magento setup:install \
+    --backend-frontname=admin \
+    --amqp-host=rabbitmq \
+    --amqp-port=5672 \
+    --amqp-user=guest \
+    --amqp-password=guest \
+    --db-host=db \
+    --db-name=magento \
+    --db-user=magento \
+    --db-password=magento \
+    --search-engine=elasticsearch7 \
+    --elasticsearch-host=elasticsearch \
+    --elasticsearch-port=9200 \
+    --elasticsearch-index-prefix=magento2 \
+    --elasticsearch-enable-auth=0 \
+    --elasticsearch-timeout=15 \
+    --http-cache-hosts=varnish:80 \
+    --session-save=redis \
+    --session-save-redis-host=redis \
+    --session-save-redis-port=6379 \
+    --session-save-redis-db=2 \
+    --session-save-redis-max-concurrency=20 \
+    --cache-backend=redis \
+    --cache-backend-redis-server=redis \
+    --cache-backend-redis-db=0 \
+    --cache-backend-redis-port=6379 \
+    --page-cache=redis \
+    --page-cache-redis-server=redis \
+    --page-cache-redis-db=1 \
+    --page-cache-redis-port=6379
+
+
+
+--------------------------------------------------------------------------
+
+
+security:recaptcha:enable-for-user-login
+
+
+
+\\wsl$\Ubuntu-20.04\home\mb15\warden-projects\magento246\app\etc\config.php
+
+php bin/magento admin:user:lock mehul
+
+
+
+php bin/magento indexer:set-dimensions-mode
+
+
+
+unlock user
+maintenance ip
+
+php bin/magento customer:hash:upgrade
+ deploy ?
+ indexer ?
+php bin/magento Info:dependencies:show-framework
+php bin/magento info:dependencies:show-modules
+php bin/magento Setup:backup
+php bin/magento Setup:performance:generate-fixtures
+php bin/magento varnish:vcl:generate
+
+difference between : indexer reindex and reset
+-------------------------------
+ Anchor
+ Layered Navigation Price Step
+ Custom Layout Update
+ Apply Design to Products
+
+------------------
+
+-----------------------------------------------------------------------------------------------------------------------
+1) div.announcement-bar =>size 
+    Live : https://prnt.sc/Np6S45EX8_FC
+    Staging : https://prnt.sc/J3uSwyii519z
+
+2) announcement-text =>hover & color
+    Live : https://prnt.sc/6CT0Yj6D5Kwz
+    Staging : https://prnt.sc/VEDjpUeqlrVG
+
+3) top -text =>Size
+    Live : https://prnt.sc/mNFD5n4r_Am_
+    Staging : https://prnt.sc/CKMRjzmwTVUf
+
+4)header content => size
+    Live : https://prnt.sc/OURTTuu0bNl-
+    Staging : https://prnt.sc/eq2iOdjxcvSo
+
+5)logo size
+    Live : https://prnt.sc/m1zyx-R9oMxN
+    Staging : https://prnt.sc/ZnZkSQXHX1XV
+
+6)Searchbar Size
+    Live : https://prnt.sc/u9cmTnQVDQdJ
+    Staging : https://prnt.sc/C8MrH5WBIAtx
+
+7)Search bar text size & color
+    Live : https://prnt.sc/ZN_cGgv0_jND
+    Staging : https://prnt.sc/USezEbx-yFyN
+
+8)search Icon size 
+    Live : https://prnt.sc/TsAvw50ec4mE
+    Staging : https://prnt.sc/oVDKJZMMSzHT
+
+9)login/sign up in live show and in staging when hover it's show
+    Live : https://prnt.sc/Luoc5EmsIHYU
+    Staging : https://prnt.sc/M-8LUvfpA6dE
+
+10)login/sign up size
+    Live : https://prnt.sc/yTd5t0N5vhOE     
+    Staging : https://prnt.sc/qFQt7mtcKUEY
+
+11) padding near my account
+    Live : https://prnt.sc/0NdwvDqpqGXi
+    Staging : https://prnt.sc/n1W1hqWnoNyu
+
+12)on cart in live 0 is show and staging not show 0
+    Live : https://prnt.sc/Th5YHOTgVXxu 
+    Staging : https://prnt.sc/J-ylRz1-c3M5
+
+13)navbar padding and size
+    Live : https://prnt.sc/QMCjBAKjOSRE
+    Staging : https://prnt.sc/NfgQCK3WDKTZ
+
+14)in mobile view heading 
+    Live : https://prnt.sc/Gp_EEP4-Cm0U
+    Staging : https://prnt.sc/nnKUjQZ8tn14
+
+15)spacing in mobile view (margin,padding)
+    Live : https://prnt.sc/pvwIyeh0l5M1
+    Staging : https://prnt.sc/Ay05xfPxkbcu
+
+16)Search bar in mobile view
+    Live : https://prnt.sc/d638NfH6mOpn
+    Staging : https://prnt.sc/pp0H70Hya2f3
+
+17)font color 
+    Live : https://prnt.sc/V7VL-UefVUn9 
+    Staging : https://prnt.sc/YFr-x2FWTfvK
+
+18) font color 
+    Live : https://prnt.sc/gIwS5596VFDs
+    Staging : https://prnt.sc/5lk84FvgXbQK
+
+19) line 
+    Live : https://prnt.sc/Z77cSJt8Kat0
+    Staging : https://prnt.sc/I7EXNLbS3Plo
+
+20)font-style and size and link underline
+    Live : https://prnt.sc/y76wPrKHslc7
+    Staging : https://prnt.sc/-fpAJnPimzfP
+
+21)space betwen icon
+    Live : https://prnt.sc/buFQbUyGuczn
+    Staging : https://prnt.sc/AC5W89Rax1QE
+
+22) all icon in one-line in mobile view 
+    Live : https://prnt.sc/Kpr93UodRMlr
+    Staging : https://prnt.sc/zOjtbC8eQPVd
+
+23)in about brand show in single-line
+    Live : https://prnt.sc/WvY60vgn27Tc
+    Staging : https://prnt.sc/DPorkRQ3CDko
+
+24)spacing between icon in mobile view
+    Live : https://prnt.sc/b5YtvMtQ8A26
+    Staging : https://prnt.sc/sqc_82piqV4y
+
+25)margin and size for p tag
+    Live : https://prnt.sc/mxqNiRNYKphH
+    Staging : https://prnt.sc/bCD_gqjsQvBp
+
+26)text 
+    Live : https://prnt.sc/Xjt_MrHwnJjj
+    Staging : https://prnt.sc/kgCRETpuV-N3
+
+27)text up-down
+    Live : https://prnt.sc/uPKk3gyT2q8j
+    Staging : https://prnt.sc/oeuaQ9RCG4kH
+
+28)Navbar  show in mobie view
+    Live : https://prnt.sc/T4L-5l2L-2tf
+    Staging : https://prnt.sc/mE53566M2296
+----------------------------------------------------------------------
+Content Tab:
+
+Manage Gallery 
+   =>Search adobe stock
+Design
+   =>configuration
+----------------------------
+Newsletter
+Billing Agreements

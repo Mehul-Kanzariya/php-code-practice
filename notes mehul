@@ -1,0 +1,209 @@
+  Youtube API key   :    AIzaSyCnpb3SrHBxjK6Kne1zJubLk4TIcyyEpsY
+ Google API Key :  AIzaSyCnpb3SrHBxjK6Kne1zJubLk4TIcyyEpsY
+ fu2r8kai38gzvnl8djtxg9e2mi2eaypu -consumer key
+lyihh1ebwwoy2v9l6pm4lsaluofts8xz  -consumer secret
+Fixer.io API =>  b320e86532edea0323d8ae7f1303538e
+app.magento246.test => Website API for recaptcha=>  6Leg0OonAAAAADlWo7zSwpPSvgvulfrYmE6TaCNg
+app.magento246.test => Website secret key for recaptcha =>   
+
+
+
+
+
+
+
+  
+  cd ~/warden-projects/practice-project/
+  warden env up
+   warden shell
+mysql -u wordpress -h db wordpress -pwordpress
+----------------------------------------
+validation reg ex.link
+----------------------------------------
+1.regexlib-raw.txt
+2.https://github.com/superhuman/rxxr2/blob/master/data/input/regexlib-raw.txt
+---------------------------
+Error message
+---------------------------
+required: "This field is required.",
+    remote: "Please fix this field.",
+    email: "Please enter a valid email address.",
+    url: "Please enter a valid URL.",
+    date: "Please enter a valid date.",
+    dateISO: "Please enter a valid date (ISO).",
+    number: "Please enter a valid number.",
+    digits: "Please enter only digits.",
+    creditcard: "Please enter a valid credit card number.",
+    equalTo: "Please enter the same value again.",
+    accept: "Please enter a value with a valid extension.",
+    maxlength: jQuery.validator.format("Please enter no more than {0} characters."),
+    minlength: jQuery.validator.format("Please enter at least {0} characters."),
+    rangelength: jQuery.validator.format("Please enter a value between {0} and {1} characters long."),
+    range: jQuery.validator.format("Please enter a value between {0} and {1}."),
+    max: jQuery.validator.format("Please enter a value less than or equal to {0}."),
+    min: jQuery.validator.format("Please enter a value greater than or equal to {0}.")
+-----------------------------
+Magento 2 tutorial link
+----------------------------------------------------
+https://www.javatpoint.com/magento-2
+
+
+-----------------------------
+
+META_PACKAGE=magento/project-community-edition META_VERSION=2.4.6
+
+composer create-project --repository-url=https://repo.magento.com/ \
+    "${META_PACKAGE}" /tmp/exampleproject "${META_VERSION}"
+
+rsync -a /tmp/magento246/ /var/www/html/
+rm -rf /tmp/magento246/
+-------------------------------
+rm -rf /tmp/magento246/
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------
+META_PACKAGE=magento/project-community-edition META_VERSION=2.4.6
+
+composer create-project --repository-url=https://repo.magento.com/ \
+    "${META_PACKAGE}" /tmp/magento246 "${META_VERSION}"
+
+rsync -a /tmp/magento246/ /var/www/html/
+rm -rf /tmp/magento246/
+
+rm -rf /tmp/magento246/
+
+
+"repo.magento.com": {"username": "95037faebda1982d04d82bd8f9a6d6c8","password": "92752d743c536598b89b998a64050558"}
+
+-------------------------------------
+Create new user
+
+php bin/magento admin:user:create --admin-user='mehul' --admin-password='Mehul@123' --admin-email='mehul@mavenbird.in' --admin-firstname='Mehul' --admin-lastname='Kanzariya'
+
+-----------------------------------------------------
+
+bin/magento dev:profiler:disable html
+
+---------------------------------------
+
+//install magento 2
+
+
+bin/magento setup:install \
+    --backend-frontname=admin \
+    --amqp-host=rabbitmq \
+    --amqp-port=5672 \
+    --amqp-user=guest \
+    --amqp-password=guest \
+    --db-host=db \
+    --db-name=magento \
+    --db-user=magento \
+    --db-password=magento \
+    --search-engine=elasticsearch7 \
+    --elasticsearch-host=elasticsearch \
+    --elasticsearch-port=9200 \
+    --elasticsearch-index-prefix=magento2 \
+    --elasticsearch-enable-auth=0 \
+    --elasticsearch-timeout=15 \
+    --http-cache-hosts=varnish:80 \
+    --session-save=redis \
+    --session-save-redis-host=redis \
+    --session-save-redis-port=6379 \
+    --session-save-redis-db=2 \
+    --session-save-redis-max-concurrency=20 \
+    --cache-backend=redis \
+    --cache-backend-redis-server=redis \
+    --cache-backend-redis-db=0 \
+    --cache-backend-redis-port=6379 \
+    --page-cache=redis \
+    --page-cache-redis-server=redis \
+    --page-cache-redis-db=1 \
+    --page-cache-redis-port=6379
+
+
+
+--------------------------------------------------------------------------
+
+
+security:recaptcha:enable-for-user-login
+
+
+
+\\wsl$\Ubuntu-20.04\home\mb15\warden-projects\magento246\app\etc\config.php
+
+php bin/magento admin:user:lock mehul
+
+
+
+php bin/magento indexer:set-dimensions-mode
+
+
+
+unlock user
+maintenance ip
+
+php bin/magento customer:hash:upgrade
+ deploy ?
+ indexer ?
+php bin/magento Info:dependencies:show-framework
+php bin/magento info:dependencies:show-modules
+php bin/magento Setup:backup
+php bin/magento Setup:performance:generate-fixtures
+php bin/magento varnish:vcl:generate
+
+difference between : indexer reindex and reset
+-------------------------------
+ Anchor
+ Layered Navigation Price Step
+ Custom Layout Update
+ Apply Design to Products
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Content Tab:
+
+=>Manage Gallery 
+   =>Search adobe stock
+=>CONTENT
+    Design
+       =>configuration
+
+=>Newsletter
+=>Billing Agreements
+
+content > configuration > Header > Translate Title,
+                          Footer > Display Report Bugs Link
+
+    Cart Price Rules > Public In RSS Feed ,  Default Rule Label for All Store Views 
+    URL Rewrites > Redirect Type 
+    Search Terms > Edit > Display in Suggested Terms
+
+    REPORTS :
+       Search Terms (2)
+       difference between Order Total and Order Count
+
+    PayPal Settlement
+
+    Braintree Settlement
+
+    Security.txt 
+
+Invoice and Packing Slip Design :
+        =>Logo for PDF Print-outs 
+Dashboard
+        =>Use Aggregated Data 
+Orders Cron Settings
+        =>Pending Payment Order Lifetime (minutes)
+Minimum Advertised Price
+        =>Display Actual Price
+Instant Purchase
+
+
+=>TAX
+Tax Classes
+Shipping Policy Parameters
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
