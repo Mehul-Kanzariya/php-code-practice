@@ -2119,3 +2119,160 @@ Comments: N/A
 Request: N/A
 
 Total Hours: 10 hours
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+DATE:15/09/2023 
+DAY: Friday
+Jay Mamadev
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Hello Sir,
+Please Review My Today 15 September 2023 Work Report As Below
+
+Project Name => Magento Learnig
+  
+  => Sorting Array:- Done
+      => sort()
+      => rsort()
+      => asort() 
+      => ksort() 
+      => arsort()
+      => krsort() 
+
+  =>Database Export & Import Using Terminal Command:-Pending
+
+  => Git Commands:-Done
+
+      => git --version 
+      => git config --global user.name "w3schools-test"
+      => git config --global user.email "test@w3schools.com"
+      => mkdir <directory name>
+      => git init
+      => git add <filename>
+      => git status
+      => git add --all
+      => git commit -m "Commit message"
+      => git log
+      => git commit -help
+      => git branch <branchname>
+      => git branch
+      => git checkout <branchname>
+      => git checkout master
+      => ls
+      => git checkout -b <branchname>
+      => git branch -d <branchname>
+      => git remote -v
+      => git push origin <branchname>
+      => git pull 
+      => git merge <branchname>
+      => git push origin :<branchname>
+      => git diff
+
+  => Git Commands:-Pending
+
+      =>git config core.filemode false
+      =>git clone /path/to/repository
+      =>git clone username@host:/path/to/repository
+      =>git remote add origin <server>
+      =>git diff --base <filename>
+      =>git diff <sourcebranch> <targetbranch>
+      =>git tag 1.0.0 <commitID>
+      =>git checkout -- <filename>
+      =>git fetch origin
+      =>git reset --hard origin/master
+      =>git grep "foo()"
+
+
+URL:- Git Commands Link:  https://www.w3schools.com/git/default.asp
+                          https://docs.mavenbird.com/books/dev-useful-commands/page/git-commands
+
+      Sorting Array Link:  https://www.w3schools.com/php/php_arrays_sort.asp
+   
+Comments: N/A
+
+Request: N/A
+
+Total Hours: 10 hours
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+DATE:18/09/2023 
+DAY: Monday
+Jay Mamadev
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Hello Sir,
+Please Review My Today 18 September 2023 Work Report As Below
+
+Project Name => Magento Learnig
+  
+ =>Search About Git   
+    =>try all commands in terminal
+      =>create repository
+
+    =>search about 
+      =>how to import and export database using terminal commands
+
+    =>working on Dharmendra sir task (2.5 hours)
+URL:- N/A
+
+Comments: N/A
+
+Request: N/A
+
+Total Hours: 10 hours
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+DATE:20/09/2023 
+DAY: Wednesday
+Jay Mamadev
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Hello Sir,
+Please Review My Today 20 September 2023 Work Report As Below
+
+Learn About Git And Commands:
+  => Learn Some Pending Commands
+    =>git config core.filemode false
+    =>git remote add origin <server>
+    =>git checkout -- <filename>
+
+=> Create practical Of Git
+    =>Create New repositories practice
+      1. Mehul-Kanzariya/test-repository
+      2. Mehul-Kanzariya/php-code-practice
+      3. Mehul-Kanzariya/pp1
+      4. Mehul-Kanzariya/php-code
+      5. Mehul-Kanzariya/php-practice
+      6. Mehul-Kanzariya/practice-project
+
+    =>  Create all commands practicle of github
+      1. Create a folder
+        =>mkdir <foldername>
+      2. Swith that folder
+        => cd <foldername>
+      3. Initialize Git 
+              =>git init
+      4. connect with repository (clone)
+              =>git Clone <url>
+      5. Check Status
+              =>git status
+      6. Create Branch
+              =>git branch <branchname>
+      7. Checkout Branch
+              =>git checkout <branchname>
+      8. Git add
+              =>git add <filename>
+              =>git add . //add all files
+      9. Git commit
+              =>git commit -m "commit message"
+      10. Git push
+              =>git push origin <branchname>
+      11. Git pull
+              =>git pull origin <branchname>
+
+    
+  =>Create A repository and add code my folder in github
+  =>Create Branch for practice
+
+URL:- Repositories : https://prnt.sc/S9xpmW-g3eMF
+      Github code : https://prnt.sc/HMu6cP7WlS66
+
+Comments: N/A
+
+Request: N/A
+
+Total Hours: 10 hours
