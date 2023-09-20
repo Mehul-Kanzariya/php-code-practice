@@ -1,1 +1,0 @@
-mysql -u wordpress -h db wordpress -pwordpress
